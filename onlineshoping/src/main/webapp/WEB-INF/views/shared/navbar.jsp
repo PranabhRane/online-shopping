@@ -6,21 +6,29 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active" id="home">
-              <a class="nav-link" href="${contextRoot}/home">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
+           
             <li class="nav-item" id="about" >
               <a class="nav-link" href="${contextRoot}/about">About</a>
-            </li>
-            <li class="nav-item" id="listProduct">
-              <a class="nav-link" href="${contextRoot}/listProduct">View Product</a>
             </li>
             <li class="nav-item" id="contact">
               <a class="nav-link" href="${contextRoot}/contact">Contact</a>
             </li>
+            <li class="nav-item" id="listProduct">
+              <a class="nav-link" href="${contextRoot}/show/all/products">View Product</a>
+            </li>
+            <li class="nav-item" id="manageProducts">
+              <a class="nav-link" href="${contextRoot}/manage/products">Manage Products</a>
+            </li>
           </ul>
+          <ul class="nav navbar-nav navbar-right">
+          	<li id="register">
+          		<a href="${contextRoot}/register">Sign Up</a>
+          	</li>
+          	<li id="login">
+          		<a href="${contextRoot}/login">Login</a>
+          	</li>
+          </ul>
+          
         </div>
       </div>
     </nav>
